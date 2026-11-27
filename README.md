@@ -1,9 +1,9 @@
 # Global PM2.5 Advection–Diffusion Model
-This is course project for UCSD DSC-200 course.
+This is course project for UCSD DSC-200 courses.
 
 A weak-form advection–diffusion model for surface PM2.5 on a global 0.75° grid. Wind-driven transport is taken from ERA5. Local source/sink and diffusivity are predicted by two small networks and scaled by learned per-cell coefficients. The training script steps forward one 3-hour interval at a time and fits the next observed concentration.
 
-
+The physical principles and derivation are in [Theory](theory.md).
 
 ## Setup
 
